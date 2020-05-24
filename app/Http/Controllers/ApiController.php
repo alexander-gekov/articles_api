@@ -28,6 +28,9 @@ class ApiController extends Controller
                 ->orWhereDay('created_at','=',$search)
                 ->paginate(15);
         }
+        else{
+            $articles = Article::paginate(15);
+        }
 
         return new ArticleResource($articles);
     }
