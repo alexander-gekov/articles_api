@@ -4,6 +4,8 @@ With this api you can make CRUD actions onto the collection of articles
 
 ## Installation
 
+If you want to run the API on your local machine you can clone the repository.
+
 Clone the repository
 
     git clone git@github.com:alexander-gekov/articles_api.git
